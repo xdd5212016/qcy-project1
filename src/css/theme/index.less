@@ -1,0 +1,370 @@
+// reset navbar
+// ------------------nav-head------------------------
+body,ul,li,h3,h4{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-head{
+  height: 122px;
+  background-color: #90B722;
+  color:#fff;
+  .nav-head-lt h2{
+    margin-top:74px;
+  }
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius:0;
+}
+ 
+  .header{ background-color:#90B722;}
+.navbar-color {
+  background: #006B39;
+  .navbar-toggle {
+    border-color: #ddd;
+    .icon-bar {
+      background-color: #888;
+    }
+  }
+  .navbar-nav>li>a:hover {
+    background-color: #4E9755;
+  }
+  .navbar-brand {color: #fff;}
+  .home{ background-color: #4D3073;}
+  .understand a{ background-color: #25496E;}
+  .curriculum a{background-color: #4E85BC;}
+  .teaching a{background-color: #337838;}
+  .robot a{background-color: #A4C24B;}
+  .dynamic a{background-color: #F29320;}
+
+  .navbar-nav > li > a {
+    color: #fff;
+    padding: 9px 39px;
+    font-size:16px;
+    border-radius: 10px 10px 0 0 ;
+    margin: 5px 4px 0 0 ;
+    font-weight: bold;
+  }
+  @media (max-width: 992px){
+    .navbar-nav > li > a {
+      color: #fff;
+      padding: 15px 18px;
+      border-radius: 10px 10px 0 0 ;
+      margin: 5px 4px 0 0 ;
+    }
+  }
+ 
+  .dropdown-menu{
+    background-color: #4E9755;
+  }
+  .navbar-nav>.open>a, .navbar-nav>.open>a:focus, .navbar-nav>.open>a:hover {
+    background-color: #4E9755;
+    color:#fff;
+  }
+}
+// banner2--------------------------------------------------------------------------------
+.banner2{
+  width: 76%;
+  height: 271px;
+  margin: 20px auto 20px;
+  position: relative;
+  .change_btn{
+    position: relative;
+    z-index: 1;
+    .prev,.next{
+      display: block;
+      width: 51px;
+      height: 52px;
+      position: absolute;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .prev{
+      background: url(../../img/press_03.png)no-repeat;
+      left: -15px;
+      top: 130px;
+    }
+    .next{
+      background: url("../../img/press_05.png") no-repeat;
+      top:130px;
+      right:-15px;
+    }
+  }
+  .v_content{overflow: hidden;position: relative;}
+  .list{
+    width: 1600px;
+    position: relative;
+  }
+  .list li{
+    width: 15%;
+    float: left;
+    margin: 0 8px;
+      img{
+        border-radius: 10px 10px  0 0 ;
+      }
+      .title{
+        width:100%;
+        height: 100px;
+        background-color:#90B622;
+        border-radius: 0 0 10px 10px;
+        text-align: left;
+        p{
+          font-size: 16px;
+          padding: 10px 15px;
+          font-weight: 700;
+          text-shadow: 0px 1px #666;
+          height: 50px;
+        }
+        a{
+          text-decoration: none;
+          color:#fff;
+        }
+        .morebtn{
+          background: url("../../img/press_more.png")no-repeat;
+          width: 57px;
+          height: 15px;
+          display: block;
+          margin: 0px 0 0 158px;
+        }
+      }
+  }
+}
+// content部分---------------------------------------------------------------------------------
+.border{border:1px solid #000;}
+.bg{background-color: #4E9755;}
+.container-fluid{
+  padding: 0;
+  background-color: #183F3C;
+  .text1{
+    width:100%;
+    // height: 180px;
+    margin:20px auto 0;
+    img{
+      width: 100%;
+      border-radius:20px 20px 0 0;
+    }
+    .text-title:before{
+      content:"";
+      display: table;
+    }
+    .text-title{
+      background-color: #90B722;
+      color:#fff;
+      border-radius: 0 0 20px 20px;
+      h3{
+        font-size: 20px;
+        line-height: 36px;
+        text-indent: 2em;
+        margin-top: 18px;
+        padding-left: 7px;
+        font-weight: bold;
+       }
+       p{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 3px 15px;
+        text-indent: 2em;
+       }   
+       ul{
+          margin: 8px 45px;
+          li{
+            font-size: 16px;
+            width: 138px;
+            line-height: 28px;
+            float: left;
+            text-align: center;
+            a{
+              color:#fff;
+            }
+          }
+       }
+    }
+    .tes2{
+      background-color: #1A4FA1;
+    }
+  }
+  .text3{
+    width: 100%;
+    // height: 430px;
+    margin:20px auto 0;
+    .t3-qcy-yw{
+      background-color: #90B622;
+      width: 100%;
+      // height: 53px;
+      padding: 9px 0px;
+      text-align: center;
+      border-radius:10px;
+      img{
+        width: 100%;
+      }
+    }
+    .sign-t3{
+      // height: 329px;
+      background: #f9ca3b;
+      padding-top: 12px;
+      padding-bottom: 3px;
+      text-align: left;
+      color: #464646;
+      position: relative;
+      margin: 15px 0px 0px 0px;
+      border-radius:10px;
+      h4{
+        font-weight:bold;
+        margin:0 auto 8px;
+      }
+      @media (min-width:1200px) { h4{width: 67%; } }
+      @media (min-width:992px) { h4{width: 90%; } }
+      @media (min-width:768px) { h4{ width: 112px; } }
+      @media (max-width:767px) { h4{width: 186px; font-size:3rem; } }
+      .input-bg{
+        background-color: #fff;
+        border-radius: 3px;
+        width: 80%;
+        height: 22px;
+        margin:0 auto;
+        margin-bottom: 8px;
+        position: relative;
+        .btn-ques{
+          position: absolute;
+          top: 3px;
+          right: 3px;
+          background: url("../../img/sign_q.gif") no-repeat;
+          width: 17px;
+          height: 17px;
+        }
+        .btn-answ{
+          position: absolute;
+          bottom: 25px;
+          right: -12px;
+          display: none;
+          color: #fff;
+          font-size: 12px;
+          letter-spacing: 0px;
+          line-height: 12px;
+          .answp-b{
+            width:0;
+            height: 0;
+            border:5px solid transparent;
+            border-color: #f6871c transparent transparent transparent;
+            position: absolute;
+            bottom:0;right: 20px;
+          }
+          #answp{
+            background: #f6871c;
+            padding: 0 15px;
+            width: auto;
+            text-align: left;
+            line-height: 20px;
+            border-radius: 10px;
+          }
+        }
+      }
+      .input-bg input{
+        color: #666;
+        background: none;
+        border: none;
+        width:100%;
+        height: 22px;
+        line-height: 22px;
+        padding-left: 4px;
+        font-size: 12px;
+        outline:none;
+      }
+      .input-bg select{
+        background: none;
+        border: none;
+        width: 100%;
+        height: 22px;
+        line-height: 22px;
+        font-size: 12px;
+        color: #666;
+        option{
+          color: #666;
+          background: none;
+          border: none;
+          line-height: 22px;
+          font-size: 12px;
+        }
+      }
+      .user-agree{
+        background: url("../../img/ico_01.gif") left top no-repeat;
+        padding-left: 24px;
+        display: block;
+        font-size: 12px;
+        line-height: 20px;
+        padding-right: 15px;
+        letter-spacing: 1px;
+        padding-bottom: 0px;
+        cursor: pointer;
+        a{
+          color: #464646;
+        }
+        p{
+          padding-right: 20px;
+          text-indent: 2em;
+          line-height: 20px;
+          padding-top: 3px;
+        }
+        input{
+          width: 132px;
+          height: 33px;
+          margin: 3px 0 0 33px;
+          display: block;
+          cursor: pointer;
+          margin:0 auto;
+          border:none;
+          outline: 3px solid #F4DA5F;
+          background-color: #FFE983;
+          font-size:18px;
+          font-weight:bold;
+          margin-bottom:10px;
+        }
+      }
+    }
+  }
+  .qcy-t2{
+    margin-top:20px;
+  }
+  .text4{
+    width:100%;
+    img{
+      width: 100%;
+      border-radius: 20px 20px 0 0 ;
+    }
+    .qcy-about{
+      background-color: #006B39;
+      border-radius:0 0 20px 20px;
+      h3{
+        text-align: center;
+        line-height: 60px;
+        font-size: 20px;
+        font-weight: 700;
+        a{
+          color:#fff;
+        }
+      }
+    }
+    .q-robot{
+      background-color: #EF8121;
+    }
+    .q-dt{
+      background-color:blue;
+    }
+  }
+  .conainer-box-btm{
+    width: 100%;
+    height: 50px;
+    background-color: #86C26C;
+  }
+}
+.container-box {
+  width: 100%;
+  .c-title{
+    width: 76%;
+    margin: 0 auto;
+    color:#fff;
+    height: 78px;
+    line-height: 78px;
+  }
+}
